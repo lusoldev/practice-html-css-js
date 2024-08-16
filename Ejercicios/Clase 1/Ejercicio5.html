@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<main>
+			<h1>Dame todos tus datos 🔫</h1>
+
+			<section>
+				<h2>Formulario:</h2>
+				<form action="#" method="POST">
+					<p>Datos básicos:</p>
+					<div>
+						<label for="nombreCompleto"></label>
+						<input id="nombreCompleto" placeholder="Nombre completo" name="nombre" />
+					</div>
+					<div>
+						<label for="correoElectronico"></label>
+
+						<input id="correoElectronico" type="email" placeholder="Correo electrónico" name="correo" />
+					</div>
+					<div>
+						<label for="contrasenia"></label>
+
+						<input id="contrasenia" type="password" placeholder="Contraseña" name="contrasenia" />
+					</div>
+					<select name="genero" id="genero">
+						<option value="M">Masculino</option>
+						<option value="F">Femenino</option>
+						<option value="X">Otro</option>
+					</select>
+					<select name="residencia" id="residencia">
+						<option value="ARG">Argentina</option>
+						<option value="ESP">España</option>
+						<option value="EU">Estados Unidos</option>
+					</select>
+					<div>
+						<p>Intereses:</p>
+						<label for="deportes">Deportes</label>
+						<input id="deportes" name="intereses" value="DEPORTES" type="checkbox" />
+						<label for="musica">Música</label>
+						<input id="musica" name="intereses" value="MUSICA" type="checkbox" />
+						<label for="viajes">Viajes</label>
+						<input id="viajes" name="intereses" value="VIAJES" type="checkbox" />
+					</div>
+					<div>
+						<p>Adicional:</p>
+						<label for="comentarios">Comentarios:</label>
+						<textarea name="COMENTARIOS" id="comentarios" placeholder="Escribe tus comentario aquí"></textarea>
+					</div>
+					<div>
+						<label for="terminos">Acepto los <a href="terminosycondiciones.html">términos y condiciones</a></label>
+						<input id="terminos" type="checkbox" />
+					</div>
+					<input type="submit" />
+					<button type="reset">Reiniciar</button>
+				</form>
+			</section>
+		</main>
+	</body>
+</html>
